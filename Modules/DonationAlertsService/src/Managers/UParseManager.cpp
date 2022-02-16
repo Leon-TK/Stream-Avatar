@@ -11,10 +11,10 @@ std::string UParseManager::constructAouthUrl()
 	std::string url = std::string(DONATIONAUTH) + "?response_type=code&client_id=" + std::string(APPID)
 					  + "&redirect_uri=" + std::string(DONATIONREDIRECT) + "&scope=" + std::string(DONATIONSCOPE) + "+" + std::string(DONATIONSCOPE2);
 
-#ifdef DEBUGPARSERS
+#ifdef G_DEBUGPARSERS
 	std::cout << url;
 	std::cout << std::endl;
-#endif // DEBUGPARSERS
+#endif // G_DEBUGPARSERS
 
 	return url;
 }
@@ -25,10 +25,10 @@ std::string UParseManager::extractAccessCode(const std::string& rUrl)
 	int index =				    rUrl.find(p2);
 	std::string Code =			rUrl.substr(index + 7); //7 len of "?code=" //26 for test minus 'def' in code str
 
-#ifdef DEBUGPARSERS
+#ifdef G_DEBUGPARSERS
 	std::cout << Code;
 	std::cout << std::endl;
-#endif // DEBUGPARSERS
+#endif // G_DEBUGPARSERS
 
 	return Code;
 }
@@ -37,10 +37,10 @@ std::string UParseManager::constructAccessCodeRequestBody()
 {
 	std::string str = "grant_type=authorization_code&client_id=" + std::string(APPID) + "&client_secret="+ std::string(USERCODE) + "&redirect_uri=" + std::string(DONATIONREDIRECT) + "&code=" + Variables::m_AccessCode;
 
-#ifdef DEBUGPARSERS
+#ifdef G_DEBUGPARSERS
 	std::cout << str;
 	std::cout << std::endl;
-#endif // DEBUGPARSERS
+#endif // G_DEBUGPARSERS
 
 	return str;
 }
@@ -60,10 +60,10 @@ Poco::JSON::Object::Ptr UParseManager::constructAccessCodeRequestJson()
 	Poco::JSON::Object::Ptr obj = var.extract<Poco::JSON::Object::Ptr>();
 
 
-#ifdef DEBUGPARSERS
+#ifdef G_DEBUGPARSERS
 	std::cout << str;
 	std::cout << std::endl;
-#endif // DEBUGPARSERS
+#endif // G_DEBUGPARSERS
 	delete parser;
 	return obj;
 }

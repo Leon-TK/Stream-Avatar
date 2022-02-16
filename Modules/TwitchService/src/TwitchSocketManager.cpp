@@ -9,7 +9,7 @@ void TwitchSocketManager::sendPass()
 	std::string str = ("PASS ") + api->pass + ("\r\n");
 	if (send(&str))
 	{
-#ifdef TwitchSocketManager_COUT_TEST
+#ifdef G_TwitchSocketManager_COUT_TEST
 		std::cout << "pass failed";
 		std::cout << std::endl;
 #endif
@@ -22,7 +22,7 @@ void TwitchSocketManager::sendNick()
 	std::string str = ("NICK ") + api->username + ("\r\n");
 	if (send(&str))
 	{
-#ifdef TwitchSocketManager_COUT_TEST
+#ifdef G_TwitchSocketManager_COUT_TEST
 		std::cout << "nick failed";
 		std::cout << std::endl;
 #endif
@@ -35,7 +35,7 @@ void TwitchSocketManager::sendJoin()
 	std::string str = ("JOIN #") + api->channelname + ("\r\n");
 	if (send(&str))
 	{
-#ifdef TwitchSocketManager_COUT_TEST
+#ifdef G_TwitchSocketManager_COUT_TEST
 		std::cout << "join failed";
 		std::cout << std::endl;
 #endif
@@ -53,7 +53,7 @@ void TwitchSocketManager::sendRequestForAdvancedCommands()
 
 	if (c1 || c2 || c3)
 	{
-#ifdef TwitchSocketManager_COUT_TEST
+#ifdef G_TwitchSocketManager_COUT_TEST
 		std::cout << "command failed";
 		std::cout << std::endl;
 #endif
@@ -105,7 +105,7 @@ void TwitchSocketManager::init()
 	sendNick();
 	sendRequestForAdvancedCommands();
 	sendJoin();
-#ifdef TwitchSocketManager_COUT_TEST
+#ifdef G_TwitchSocketManager_COUT_TEST
 	std::cout << "Sending cmplete";
 	std::cout << std::endl;
 #endif
@@ -123,7 +123,7 @@ void TwitchSocketManager::recievingData()
 {
 	while (m_bReceiveData)
 	{
-#ifdef TwitchSocketManager_COUT_TEST
+#ifdef G_TwitchSocketManager_COUT_TEST
 		std::cout << "Receiving data";
 #endif
 		if (m_isPing)
@@ -162,7 +162,7 @@ void TwitchSocketManager::setApi(TwitchApi * api)
 	this->api = api;
 }
 
-#ifndef TwitchSocketManager_ONLY
+#ifndef G_TwitchSocketManager_ONLY
 void TwitchWebSocketManager::sendPass()
 {
 	std::string str = "PASS " + api->pass +"\r\n";
@@ -203,7 +203,7 @@ void TwitchWebSocketManager::recievingData()
 {
 	while (bReceiveData)
 	{
-#ifdef TwitchSocketManager_COUT_TEST
+#ifdef G_TwitchSocketManager_COUT_TEST
 		std::cout << "Receiving data";
 #endif
 		if (isPing)
@@ -236,7 +236,7 @@ bool TwitchWebSocketManager::init()
 	sendPass();
 	sendNick();
 	sendJoin();
-#ifdef TwitchSocketManager_COUT_TEST
+#ifdef G_TwitchSocketManager_COUT_TEST
 	std::cout << "Sending cmplete";
 #endif
 	bReceiveData = 1;

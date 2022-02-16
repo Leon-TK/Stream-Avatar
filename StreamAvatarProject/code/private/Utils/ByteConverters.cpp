@@ -17,7 +17,7 @@ std::vector<char>* ByteConverter::convert(const std::string& rData)
 	buffer->shrink_to_fit();
 	return buffer;
 }
-#ifndef  ByteConverter_TEST
+#ifndef  G_ByteConverter_TEST
 
 
 
@@ -43,7 +43,7 @@ std::vector<uint8_t>* ByteConverter::convertu(const std::string& rData)
 //#endif
 
 }
-#endif // ! ByteConverter_TEST
+#endif // ! G_ByteConverter_TEST
 std::vector<wchar_t>* ByteConverter::convertw(const std::wstring& rData)
 {
 	//std::string str = "asdasdasdasd";

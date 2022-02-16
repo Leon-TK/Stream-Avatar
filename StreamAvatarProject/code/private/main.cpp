@@ -1,8 +1,8 @@
 #pragma once
 
-//#define TEST
+//#define G_TEST
 
-#ifndef TEST
+#ifndef G_TEST
 	#include <thread>
 	#include <SFML/Graphics.hpp>
 
@@ -23,9 +23,9 @@
 	GraphicThread gth;
 	DaApiThread dath;
 	RtAudioThread rtath;
-#endif // !TEST
+#endif // !G_TEST
 
-#ifdef TEST
+#ifdef G_TEST
 	//#include <stdio.h>
 	//#include<windows.h>
 
@@ -41,11 +41,11 @@
 	TwitchApi ta;
 	IApi * twapi;
 	//Program pr;
-#endif // TEST
+#endif // G_TEST
 
 int main()
 {
-#ifndef TEST
+#ifndef G_TEST
 	//Setup
 	gth.setUp();
 	//dath.setUp();
@@ -73,14 +73,14 @@ int main()
 	
 	return 0;
 
-#endif // !TEST
-#ifdef TEST
+#endif // !G_TEST
+#ifdef G_TEST
 	//_setmode(_fileno(stdout), _O_U16TEXT);
 	twapi = &ta;
 	twapi->start();
 	//pr.loadConfig("config/config.txt");
 	//pr.setup();
 	return 0;
-#endif // TEST
+#endif // G_TEST
 }
 

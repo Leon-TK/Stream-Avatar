@@ -32,7 +32,7 @@
 //Debug
 
 //#define DEBUG
-#define DEBUGPARSERS
+#define G_DEBUGPARSERS
 
 
 //Debug

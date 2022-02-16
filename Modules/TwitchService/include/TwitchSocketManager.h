@@ -5,8 +5,8 @@
 #include "SocketSFML.h"
 #include "ByteConverters.h"
 
-#define TwitchSocketManager_ONLY
-#define TwitchSocketManager_COUT_TEST
+#define G_TwitchSocketManager_ONLY
+#define G_TwitchSocketManager_COUT_TEST
 
 class TwitchApi;
 
@@ -35,7 +35,7 @@ public:
 	void setApi(TwitchApi& rApi);
 };
 
-#ifndef TwitchSocketManager_ONLY
+#ifndef G_TwitchSocketManager_ONLY
 class TwitchWebSocketManager : public IWebSocketManager
 {
 private:
