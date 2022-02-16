@@ -1,0 +1,11 @@
+ShowCamera: 1
+ShowDonationAlerts: 1
+ShowDonationAlertsType = separate
+ShowTwitchAlerts: 1
+ShowTwitchAlertsType = separate
+ShowGame1: 1
+DonationAlertsSocketRate: 5000
+TwitchReceiveSocketRate: 1000
+TwitchSendSocketRate: 1000
+TwitchSendBufferSize: 1024
+TwitchRecvBufferSize: 1024
