@@ -2,7 +2,7 @@
 
 #include <thread>
 
-#include "Poco/Thread.h"
+#include "thirdparty/Poco/Thread.h"
 
 #include "Incl.h"
 #include "UParseManager.h"

@@ -1,8 +1,8 @@
 #pragma once
 
-#include "Poco/Net/HTTPSClientSession.h"
-#include "Poco/Net/HTTPResponse.h"
-#include "Poco/JSON/Object.h"
+#include "thirdparty/Poco/Net/HTTPSClientSession.h"
+#include "thirdparty/Poco/Net/HTTPResponse.h"
+#include "thirdparty/Poco/JSON/Object.h"
 
 #include "Incl.h"
 #include "Variables.h"

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Poco/Net/HTTPRequest.h"
+#include "thirdparty/Poco/Net/HTTPRequest.h"
 
 #include "Incl.h"
 #include "IProcessRequest.h"

@@ -1,9 +1,9 @@
 #pragma once
 
 #include "sfml\Graphics.hpp"
-//#include "Poco\JSON\Object.h"
-//#include "Poco\JSON\Array.h"
-//#include "Poco\JSON\Parser.h"
+//#include "thirdparty/Poco\JSON\Object.h"
+//#include "thirdparty/Poco\JSON\Array.h"
+//#include "thirdparty/Poco\JSON\Parser.h"
 
 //#include "Mouth.h"
 //#include "OtherElements.h"

@@ -1,10 +1,10 @@
 #pragma once
 
 #include "Defines.h"
-#include "Poco\JSON\Parser.h"
-#include "Poco\JSON\Object.h"
-#include "Poco\JSON\Stringifier.h"
-#include "Poco\JSON\JSON.h"
+#include "thirdparty/Poco/JSON/Parser.h"
+#include "thirdparty/Poco/JSON/Object.h"
+#include "thirdparty/Poco/JSON/Stringifier.h"
+#include "thirdparty/Poco/JSON/JSON.h"
 
 #include "Incl.h"
 #include "Variables.h"

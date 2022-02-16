@@ -1,16 +1,16 @@
 #pragma once
 
-#include "Poco/net/httpsclientsession.h"
-#include "Poco/net/httpclientsession.h"
-#include "Poco/URI.h"
-#include "Poco/Net/HTTPRequest.h"
-#include "Poco/Net/HTTPResponse.h"
-#include "Poco/net/websocket.h"
-#include "Poco/net/sslmanager.h"
-#include "Poco/sharedptr.h"
-#include "Poco/Net/KeyConsoleHandler.h"
-#include "Poco/Net/ConsoleCertificateHandler.h"
-#include "Poco/Net/AcceptCertificateHandler.h"
+#include "thirdparty/Poco/net/httpsclientsession.h"
+#include "thirdparty/Poco/net/httpclientsession.h"
+#include "thirdparty/Poco/URI.h"
+#include "thirdparty/Poco/Net/HTTPRequest.h"
+#include "thirdparty/Poco/Net/HTTPResponse.h"
+#include "thirdparty/Poco/net/websocket.h"
+#include "thirdparty/Poco/net/sslmanager.h"
+#include "thirdparty/Poco/sharedptr.h"
+#include "thirdparty/Poco/Net/KeyConsoleHandler.h"
+#include "thirdparty/Poco/Net/ConsoleCertificateHandler.h"
+#include "thirdparty/Poco/Net/AcceptCertificateHandler.h"
 
 using Poco::Net::Context;
 using Poco::SharedPtr;

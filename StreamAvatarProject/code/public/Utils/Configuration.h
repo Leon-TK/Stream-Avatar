@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Poco/Util/PropertyFileConfiguration.h"
+#include "thirdparty/Poco/Util/PropertyFileConfiguration.h"
 
 using Poco::AutoPtr; 
 using Poco::Util::PropertyFileConfiguration;

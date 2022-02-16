@@ -1,6 +1,6 @@
 #pragma once
-#include "Poco/Net/HTTPRequest.h"
-#include "Poco/JSON/Object.h"
+#include "thirdparty/Poco/Net/HTTPRequest.h"
+#include "thirdparty/Poco/JSON/Object.h"
 
 #include "Incl.h"
 #include "Variables.h"

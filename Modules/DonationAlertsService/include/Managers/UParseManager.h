@@ -1,8 +1,8 @@
 #pragma once
 
-#include "Poco/JSON/Parser.h"
-#include "Poco/JSON/Object.h"
-#include "Poco/JSON/PrintHandler.h"
+#include "thirdparty/Poco/JSON/Parser.h"
+#include "thirdparty/Poco/JSON/Object.h"
+#include "thirdparty/Poco/JSON/PrintHandler.h"
 
 #include "Incl.h"
 #include "Defines.h"

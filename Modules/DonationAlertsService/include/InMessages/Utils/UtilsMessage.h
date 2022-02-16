@@ -3,7 +3,7 @@
 #include <array>
 #include <vector>
 
-#include "Poco/StreamCopier.h"
+#include "thirdparty/Poco/StreamCopier.h"
 
 #include "Incl.h"
 #include "InMessages.h"
