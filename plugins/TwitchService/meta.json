@@ -1,0 +1,5 @@
+{
+    "type": "plugin",
+    "pluginType": "game",
+    "configuration": "debug"
+}
