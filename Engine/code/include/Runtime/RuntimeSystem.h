@@ -1,4 +1,0 @@
-class RuntimeSystem : public System
-{
-
-};
