@@ -1,3 +1,4 @@
+#type: program
 def options(opt):
     pass
 def configure(ctx):

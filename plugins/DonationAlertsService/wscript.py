@@ -1,3 +1,4 @@
+#type: shlib, stlib
 def options(opt):
     pass
 def configure(ctx):

@@ -1,0 +1,23 @@
+TODO:  Check if we need while loop here, line - 66, file - E:\Source\git\StreamAvatar\Game\code\include\main.cpp
+TODO:  UpdatePosition() optimization because it calculates every tick, line - 36, file - E:\Source\git\StreamAvatar\Game\code\include\Graphics\Base\GraphicalElement.h
+TODO:  shoud be in derived classes?, line - 39, file - E:\Source\git\StreamAvatar\Game\code\include\Graphics\Elements\Camera\Character\Animation\CharacterAnimation.h
+TODO:  shoud be in derived classes?, line - 40, file - E:\Source\git\StreamAvatar\Game\code\include\Graphics\Elements\Camera\Character\Animation\CharacterAnimation.h
+TODO:  must be global, line - 13, file - E:\Source\git\StreamAvatar\Game\code\src\AudioApi\RTAudioApi.cpp
+TODO:  vector2f cast mut not be here, mouthANchor must be Vector2f/, line - 24, file - E:\Source\git\StreamAvatar\Game\code\src\Graphics\BodyFrame.cpp
+TODO:  vector2f cast mut not be here, mouthANchor must be Vector2f/, line - 27, file - E:\Source\git\StreamAvatar\Game\code\src\Graphics\BodyFrame.cpp
+TODO: , line - 32, file - E:\Source\git\StreamAvatar\Game\code\src\Graphics\BodyFrame.cpp
+TODO:  vector2f cast mut not be here, mouthANchor must be Vector2f/, line - 17, file - E:\Source\git\StreamAvatar\Game\code\src\Graphics\MouthFrame.cpp
+TODO:  awoid Vector2f cast. m_ParentAnchor must be Vector2f instead, line - 37, file - E:\Source\git\StreamAvatar\Game\code\src\Graphics\Base\GraphicalElement.cpp
+TODO:  offset must be v2f , line - 54, file - E:\Source\git\StreamAvatar\Game\code\src\Graphics\Base\GraphicalElement.cpp
+TODO:  asdsa, line - 108, file - E:\Source\git\StreamAvatar\plugins\DonationAlertsService\code\src\InMessages\Utils\UtilsMessage.cpp
+TODO:  mutex, line - 27, file - E:\Source\git\StreamAvatar\plugins\DonationAlertsService\code\src\InMessages\WebSocket\WebSocketMessages.cpp
+TODO:  it was DONATIONREDIRECT, line - 23, file - E:\Source\git\StreamAvatar\plugins\DonationAlertsService\code\src\Managers\UParseManager.cpp
+TODO:  ????, line - 64, file - E:\Source\git\StreamAvatar\plugins\DonationAlertsService\code\src\Managers\URequestManager.cpp
+TODO:  i case Internal error change this!, line - 93, file - E:\Source\git\StreamAvatar\plugins\DonationAlertsService\code\src\Managers\URequestManager.cpp
+TODO:  sleep std thread, line - 119, file - E:\Source\git\StreamAvatar\plugins\DonationAlertsService\code\src\Managers\UWebSocketManager.cpp
+TODO:  sleep std thread, line - 123, file - E:\Source\git\StreamAvatar\plugins\DonationAlertsService\code\src\Managers\UWebSocketManager.cpp
+TODO: , line - 42, file - E:\Source\git\StreamAvatar\plugins\TwitchService\code\include\parameters\TwitchParameters.h
+TODO: , line - 60, file - E:\Source\git\StreamAvatar\plugins\TwitchService\code\include\parameters\TwitchParameters.h
+TODO: , line - 66, file - E:\Source\git\StreamAvatar\plugins\TwitchService\code\include\parameters\TwitchParameters.h
+TODO:  sleep std thread, line - 141, file - E:\Source\git\StreamAvatar\plugins\TwitchService\code\src\TwitchSocketManager.cpp
+TODO:  sleep std thread, line - 218, file - E:\Source\git\StreamAvatar\plugins\TwitchService\code\src\TwitchSocketManager.cpp
